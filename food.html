@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be Fit - Food Recipes and Diet Charts</title>
+    <link rel="stylesheet" href="food.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="cursor"></div>
+
+    <header>
+        <div id="header">
+            <nav class="nav">
+              <div class="logo">.be fit</div>
+              <ul class="links">
+                <li><a href="index.html" class="cursor-scale small">Home</a></li>
+                <li><a href="service.html" class="cursor-scale small">Services</a></li>
+                <li><a href="contact.html" class="cursor-scale small">Contact</a></li>
+              </ul>
+              <div class="icon" onclick="toggleMenu()">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-regular fa-circle-xmark" style="display: none"></i>
+              </div>
+              <!-- <div class="theme" onclick="thememenu()">
+                <i class="fa-regular fa-sun"></i>
+                <i class="fa-solid fa-moon" style="display: none"></i>
+              </div> -->
+            </nav>
+        </div>    
+    </header>
+
+    <div class="heading">
+      <h1>Food Recipes and Diet Charts</h1>
+    </div>
+
+    <!-- Food Recipes Section -->
+    <section class="recipes">
+        <h2>Healthy Food Recipes</h2>
+        <div class="recipe-container">
+            <div class="recipe">
+                <h3 style="color: black;">Spaghetti Carbonara</h3>
+                <ul>
+                    <li>Spaghetti</li>
+                    <li>Pancetta</li>
+                    <li>Eggs</li>
+                    <li>Parmesan Cheese</li>
+                    <li>Black Pepper</li>
+                </ul>
+                <p>A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper. Quick and satisfying!</p>
+            </div>
+    
+            <!-- Recipe 2 -->
+            <div class="recipe">
+                <h3  style="color: black;">Grilled Chicken Salad</h3>
+                <ul>
+                    <li>Chicken Breast</li>
+                    <li>Mixed Greens</li>
+                    <li>Cherry Tomatoes</li>
+                    <li>Feta Cheese</li>
+                    <li>Balsamic Dressing</li>
+                </ul>
+                <p>A healthy and refreshing salad with grilled chicken, fresh vegetables, and a tangy dressing.</p>
+            </div>
+    
+            <!-- Recipe 3 -->
+            <div class="recipe">
+                <h3 style="color: black;">Vegetable Stir-Fry</h3>
+                <ul>
+                    <li>Broccoli</li>
+                    <li>Bell Peppers</li>
+                    <li>Carrots</li>
+                    <li>Soy Sauce</li>
+                    <li>Ginger</li>
+                </ul>
+                <p>A colorful and nutritious stir-fry with fresh vegetables and a savory soy-ginger sauce.</p>
+            </div>
+    
+            <!-- Recipe 4 -->
+            <div class="recipe">
+                <h3 style="color: black;">Avocado Toast</h3>
+                <ul>
+                    <li>Whole Grain Bread</li>
+                    <li>Avocado</li>
+                    <li>Lemon Juice</li>
+                    <li>Red Pepper Flakes</li>
+                    <li>Salt & Pepper</li>
+                </ul>
+                <p>Simple and delicious avocado toast topped with lemon juice and red pepper flakes.</p>
+            </div>
+    
+            <!-- Recipe 5 -->
+            <div class="recipe">
+                <h3 style="color: black;">Chicken Tacos</h3>
+                <ul>
+                    <li>Chicken Thighs</li>
+                    <li>Taco Seasoning</li>
+                    <li>Flour Tortillas</li>
+                    <li>Pico de Gallo</li>
+                    <li>Guacamole</li>
+                </ul>
+                <p>Flavor-packed chicken tacos with fresh pico de gallo and creamy guacamole.</p>
+            </div>
+    
+            <!-- Recipe 6 -->
+            <div class="recipe">
+                <h3 style="color: black;">Chocolate Chip Cookies</h3>
+                <ul>
+                    <li>Flour</li>
+                    <li>Sugar</li>
+                    <li>Butter</li>
+                    <li>Chocolate Chips</li>
+                    <li>Vanilla Extract</li>
+                </ul>
+                <p>Classic homemade chocolate chip cookies with a crispy edge and soft center.</p>
+            </div>
+    
+            <!-- Recipe 7 -->
+            <div class="recipe">
+                <h3 style="color: black;">Quinoa Salad</h3>
+                <ul>
+                    <li>Quinoa</li>
+                    <li>Cucumber</li>
+                    <li>Tomatoes</li>
+                    <li>Feta Cheese</li>
+                    <li>Lemon Vinaigrette</li>
+                </ul>
+                <p>A light and refreshing quinoa salad with cucumbers, tomatoes, and a zesty lemon vinaigrette.</p>
+            </div>
+    
+            <!-- Recipe 8 -->
+            <div class="recipe">
+                <h3 style="color: black;">Beef Stir-Fry</h3>
+                <ul>
+                    <li>Beef Strips</li>
+                    <li>Bell Peppers</li>
+                    <li>Onions</li>
+                    <li>Soy Sauce</li>
+                    <li>Garlic</li>
+                </ul>
+                <p>A quick and easy stir-fry with tender beef strips, vibrant bell peppers, and savory garlic sauce.</p>
+            </div>
+    
+            <!-- Recipe 9 -->
+            <div class="recipe">
+                <h3 style="color: black;">Margherita Pizza</h3>
+                <ul>
+                    <li>Pizza Dough</li>
+                    <li>Tomato Sauce</li>
+                    <li>Fresh Mozzarella</li>
+                    <li>Basil Leaves</li>
+                    <li>Olive Oil</li>
+                </ul>
+                <p>A simple and classic pizza with fresh mozzarella, tomato sauce, and basil leaves.</p>
+            </div>
+    
+            <!-- Recipe 10 -->
+            <div class="recipe">
+                <h3 style="color: black;">Pancakes</h3>
+                <ul>
+                    <li>Flour</li>
+                    <li>Milk</li>
+                    <li>Eggs</li>
+                    <li>Baking Powder</li>
+                    <li>Syrup</li>
+                </ul>
+                <p>Fluffy pancakes served with butter and syrup, perfect for a hearty breakfast.</p>
+            </div>
+    
+        </div>
+    </section>
+
+    <!-- Diet Chart Section -->
+    <section class="diet-chart">
+        <h2>Weekly Diet Chart</h2>
+        <table>
+            <tr>
+                <th>Days</th>
+                <th>Meal</th>
+                <th>Food Items</th>
+            </tr>
+            <tr>
+                <td style="color: yellow;">Monday</td>
+                <td>Breakfast</td>
+                <td>Oatmeal, Fresh Fruit, Greek Yogurt</td>
+            </tr>
+            <tr>
+                <td style="color: yellow;">Monday</td>
+                <td>Lunch</td>
+                <td>Grilled Chicken, Quinoa, Steamed Vegetables</td>
+            </tr>
+            <tr>
+                <td style="color: yellow;">Monday</td>
+                <td>Snack</td>
+                <td>Mixed Nuts, Fresh Berries</td>
+            </tr>
+            <tr>
+                <td style="color: yellow;">Monday</td>
+                <td>Dinner</td>
+                <td>Baked Salmon, Brown Rice, Sautéed Spinach</td>
+            </tr>
+
+
+
+            <tr>
+                <td style="color: aqua;">Tuesday</td>
+                <td>Breakfast</td>
+                <td>Oatmeal, Fresh Fruit, Greek Yogurt</td>
+            </tr>
+            <tr>
+                <td style="color: aqua;">Tuesday</td>
+                <td>Lunch</td>
+                <td>Grilled Chicken, Quinoa, Steamed Vegetables</td>
+            </tr>
+            <tr>
+                <td style="color: aqua;">Tuesday</td>
+                <td>Snack</td>
+                <td>Mixed Nuts, Fresh Berries</td>
+            </tr>
+            <tr>
+                <td style="color: aqua;">Tuesday</td>
+                <td>Dinner</td>
+                <td>Baked Salmon, Brown Rice, Sautéed Spinach</td>
+            </tr>
+
+        
+            <tr>
+                <td style="color: chocolate;">Wednesday</td>
+                <td>Breakfast</td>
+                <td>Oatmeal, Fresh Fruit, Greek Yogurt</td>
+            </tr>
+            <tr>
+                <td style="color: chocolate;">Wednesday</td>
+                <td>Lunch</td>
+                <td>Grilled Chicken, Quinoa, Steamed Vegetables</td>
+            </tr>
+            <tr>
+                <td style="color: chocolate;">Wednesday</td>
+                <td>Snack</td>
+                <td>Mixed Nuts, Fresh Berries</td>
+            </tr>
+            <tr>
+                <td style="color: chocolate;">Wednesday</td>
+                <td>Dinner</td>
+                <td>Baked Salmon, Brown Rice, Sautéed Spinach</td>
+            </tr>
+
+
+            
+            <tr>
+                <td style="color:coral;">Thursday</td>
+                <td>Breakfast</td>
+                <td>Oatmeal, Fresh Fruit, Greek Yogurt</td>
+            </tr>
+            <tr>
+                <td style="color:coral;">Thursday</td>
+                <td>Lunch</td>
+                <td>Grilled Chicken, Quinoa, Steamed Vegetables</td>
+            </tr>
+            <tr>
+                <td style="color:coral;">Thursday</td>
+                <td>Snack</td>
+                <td>Mixed Nuts, Fresh Berries</td>
+            </tr>
+            <tr>
+                <td style="color:coral;">Thursday</td>
+                <td>Dinner</td>
+                <td>Baked Salmon, Brown Rice, Sautéed Spinach</td>
+            </tr>
+
+            <tr>
+                <td style="color: bisque;">Friday</td>
+                <td>Breakfast</td>
+                <td>Oatmeal, Fresh Fruit, Greek Yogurt</td>
+            </tr>
+            <tr>
+                <td style="color: bisque;">Friday</td>
+                <td>Lunch</td>
+                <td>Grilled Chicken, Quinoa, Steamed Vegetables</td>
+            </tr>
+            <tr>
+                <td style="color: bisque;">Friday</td>
+                <td>Snack</td>
+                <td>Mixed Nuts, Fresh Berries</td>
+            </tr>
+            <tr>
+                <td style="color: bisque;">Friday</td>
+                <td>Dinner</td>
+                <td>Baked Salmon, Brown Rice, Sautéed Spinach</td>
+            </tr>
+
+
+            <tr>
+                <td style="color: burlywood;">Saturday</td>
+                <td>Breakfast</td>
+                <td>Oatmeal, Fresh Fruit, Greek Yogurt</td>
+            </tr>
+            <tr>
+                <td style="color: burlywood;">Saturday</td>
+                <td>Lunch</td>
+                <td>Grilled Chicken, Quinoa, Steamed Vegetables</td>
+            </tr>
+            <tr>
+                <td style="color: burlywood;">Saturday</td>
+                <td>Snack</td>
+                <td>Mixed Nuts, Fresh Berries</td>
+            </tr>
+            <tr>
+                <td style="color: burlywood;">Saturday</td>
+                <td>Dinner</td>
+                <td>Baked Salmon, Brown Rice, Sautéed Spinach</td>
+            </tr>
+
+
+            <tr>
+                <td style="color: gold;">Sunday</td>
+                <td> Cheat Day</td>
+                <td>Favourite Food - Which Gives You Happiness </td>
+            </tr>
+          
+        </table>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="fpara-container">
+          <div class="flinks">
+            <a href="index.html">Home</a>
+            <a href="service.html">Services</a>
+            <a href="contact.html">Contact</a>
+          </div>
+    
+          <div class="ficons">
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+          </div>
+    
+          <div class="fpara">
+            <p>copyright &#169; 2024 || Be-fit </p>
+          </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
